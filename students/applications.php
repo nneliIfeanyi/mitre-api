@@ -49,6 +49,8 @@ if ($method === 'GET') {
             a.acknowledgment_sms_sent,
             a.admission_sms_sent,
             a.review_notes,
+            a.submitted_at,
+            a.referee_completed_at,
             a.reviewed_at,
             a.created_at AS applied_at,
             s.id AS student_id,
